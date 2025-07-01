@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Lumière Cosmetics - Premium beauty products for radiant skin. Shop our cruelty-free, vegan cosmetics collection.">
+    <meta property="og:title" content="Lumière Cosmetics | Premium Vegan Beauty Products">
+    <meta property="og:description" content="Discover our luxurious, cruelty-free cosmetics for your perfect glow.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1596462502278-27bfdc403348">
+    <meta property="og:url" content="https://example.com">
+    <meta name="theme-color" content="#f8d7da">
+    <title>Cold Azzel | Premium Vegan Beauty Products</title>
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Language Toggle -->
+    <div class="lang-toggle">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="ar">العربية</button>
+    </div>
+
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#" class="logo">Cold Azzel</a>
+            <div class="nav-links">
+                <a href="#home" data-i18n="nav.home">Home</a>
+                <a href="#products" data-i18n="nav.products">Products</a>
+                <a href="#offers" data-i18n="nav.offers">Offers</a>
+                <a href="#about" data-i18n="nav.about">About</a>
+                <a href="#contact" data-i18n="nav.contact">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <button class="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="btn cart-btn" aria-label="Shopping cart">
+                    <i class="fas fa-shopping-bag"></i>
+                </button>
+                <button class="menu-toggle" aria-label="Mobile menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-carousel">
+                <!-- Slide 1 -->
+                <div class="carousel-slide active">
+                    <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9" alt="Cosmetics products"
+                        class="slide-bg">
+                    <div class="slide-content container">
+                        <h1 class="slide-title" data-i18n="hero.title1">Radiant Beauty Starts Here</h1>
+                        <p class="slide-text" data-i18n="hero.text1">Discover our vegan, cruelty-free cosmetics for your
+                            perfect glow</p>
+                        <a href="#products" class="btn btn-primary" data-i18n="hero.cta">Shop Now</a>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-slide">
+                    <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348" alt="Makeup products"
+                        class="slide-bg">
+                    <div class="slide-content container">
+                        <h1 class="slide-title" data-i18n="hero.title2">Summer Glow Collection</h1>
+                        <p class="slide-text" data-i18n="hero.text2">Limited edition products for your sun-kissed look
+                        </p>
+                        <a href="#offers" class="btn btn-primary" data-i18n="hero.cta2">Explore</a>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-slide">
+                    <img src="https://images.unsplash.com/photo-1625772452859-1c03d5bf1137" alt="Lipsticks"
+                        class="slide-bg">
+                    <div class="slide-content container">
+                        <h1 class="slide-title">Luxury Matte Lipsticks</h1>
+                        <p class="slide-text">24-hour wear with nourishing ingredients</p>
+                        <a href="#products" class="btn btn-primary">View Collection</a>
+                    </div>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="carousel-slide">
+                    <img src="https://images.unsplash.com/photo-1571781926291-c477ebfd024b" alt="Skincare"
+                        class="slide-bg">
+                    <div class="slide-content container">
+                        <h1 class="slide-title">Complete Skincare System</h1>
+                        <p class="slide-text">Transform your skin in just 7 days</p>
+                        <a href="#offers" class="btn btn-primary">Shop Skincare</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-controls">
+                <button class="carousel-prev" aria-label="Previous slide"><i class="fas fa-chevron-left"></i></button>
+                <div class="carousel-indicators"></div>
+                <button class="carousel-next" aria-label="Next slide"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+
+        <!-- Featured Categories -->
+        <section id="products" class="section featured-categories">
+            <div class="container">
+                <h2 class="section-title" data-i18n="sections.categories">Shop By Category</h2>
+                <div class="categories-grid">
+                    <!-- Category 1 - Skin Care -->
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1571781926291-c477ebfd024b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                            alt="Skin care products" class="category-img">
+                        <div class="category-content">
+                            <h3 data-i18n="categories.skincare">Skin Care</h3>
+                            <a href="#" class="btn btn-outline" data-i18n="general.explore">Explore</a>
+                        </div>
+                    </div>
+
+                    <!-- Category 2 - Makeup -->
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                            alt="Makeup products" class="category-img">
+                        <div class="category-content">
+                            <h3 data-i18n="categories.makeup">Makeup</h3>
+                            <a href="#" class="btn btn-outline" data-i18n="general.explore">Explore</a>
+                        </div>
+                    </div>
+
+                    <!-- Category 3 - Hair Care -->
+                    <!-- <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1608248544923-76846db61b21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
+                            alt="Hair care products" class="category-img">
+                        <div class="category-content">
+                            <h3 data-i18n="categories.haircare">Hair Care</h3>
+                            <a href="#" class="btn btn-outline" data-i18n="general.explore">Explore</a>
+                        </div>
+                    </div> -->
+
+                    <!-- Category 4 - New: Body Care -->
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
+                            alt="Body care products" class="category-img">
+                        <div class="category-content">
+                            <h3 data-i18n="categories.bodycare">Body Care</h3>
+                            <a href="#" class="btn btn-outline" data-i18n="general.explore">Explore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Special Offers -->
+        <section id="offers" class="section special-offers">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="sections.offers">Special Offers</h2>
+                    <a href="#" class="btn btn-text" data-i18n="general.viewAll">View All</a>
+                </div>
+                <div class="products-grid">
+                    <article class="product-card">
+                        <div class="product-badge" data-i18n="badges.discount">-20%</div>
+                        <img src="https://images.unsplash.com/photo-1631729371254-42c2892f0e6e" alt="Vitamin C Serum"
+                            class="product-img">
+                        <div class="product-content">
+                            <h3 class="product-title" data-i18n="products.serum">Vitamin C Serum</h3>
+                            <div class="product-price">
+                                <span class="price-old">$39.99</span>
+                                <span class="price-new">$31.99</span>
+                            </div>
+                            <button class="btn btn-primary" data-i18n="general.addToCart">Add to Bag</button>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-badge" data-i18n="badges.bestseller">Bestseller</div>
+                        <img src="https://images.unsplash.com/photo-1625772452859-1c03d5bf1137" alt="Matte Lipstick Set"
+                            class="product-img">
+                        <div class="product-content">
+                            <h3 class="product-title" data-i18n="products.lipstick">Matte Lipstick Set</h3>
+                            <div class="product-price">$24.99</div>
+                            <button class="btn btn-primary" data-i18n="general.addToCart">Add to Bag</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="about-content">
+                    <h2 class="section-title" data-i18n="sections.about">Our Story</h2>
+                    <p class="about-text" data-i18n="about.text1">Founded in 2015, Lumière Cosmetics was born from a
+                        passion for clean, effective beauty products that enhance your natural radiance without
+                        compromise.</p>
+                    <p class="about-text" data-i18n="about.text2">We believe in cruelty-free, vegan formulations that
+                        deliver luxurious results while being kind to your skin and the planet.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label" data-i18n="stats.crueltyFree">Cruelty-Free</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">85%</div>
+                            <div class="stat-label" data-i18n="stats.vegan">Vegan</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9" alt="Lumière Cosmetics team"
+                        class="about-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="section newsletter-section">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2 class="section-title" data-i18n="newsletter.title">Join Our Beauty Community</h2>
+                    <p class="newsletter-text" data-i18n="newsletter.text">Subscribe to get exclusive offers, beauty
+                        tips, and early access to new products.</p>
+                </div>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required data-i18n-placeholder="form.email">
+                    <button type="submit" class="btn btn-primary" data-i18n="form.subscribe">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3 class="footer-title">Lumière</h3>
+                    <p class="footer-text" data-i18n="footer.tagline">Premium vegan beauty products for your radiant
+                        glow.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title" data-i18n="footer.shop">Shop</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" data-i18n="categories.skincare">Skin Care</a></li>
+                        <li><a href="#" data-i18n="categories.makeup">Makeup</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title" data-i18n="footer.help">Help</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" data-i18n="footer.contact">Contact Us</a></li>
+                        <li><a href="#" data-i18n="footer.faq">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title" data-i18n="footer.contact">Contact</h3>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-map-marker-alt"></i> <span data-i18n="footer.address">123 Beauty Ave,
+                                Cosmopolis</span></li>
+                        <li><i class="fas fa-phone"></i> (123) 456-7890</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright" data-i18n="footer.copyright">&copy; 2023 Lumière Cosmetics. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script defer src="public/js/main.js"></script>
+</body>
+
+</html>
